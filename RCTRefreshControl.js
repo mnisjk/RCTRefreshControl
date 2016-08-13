@@ -4,14 +4,12 @@
  */
 'use strict';
 
-var React = require('react-native');
-var {
+import React, { Component } from 'react';
+import {
   DeviceEventEmitter,
-  NativeModules: {
-    RefreshControl,
-  },
+  NativeModules,
   processColor
-} = React;
+} from 'react-native';
 
 /**
  * A pull down to refresh control like the one in Apple's iOS6 Mail App.
