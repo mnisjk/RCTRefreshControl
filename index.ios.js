@@ -1,14 +1,13 @@
 'use strict';
 
-import React from 'react-native';
-const {
-  Component,
+import React, { Component } from 'react';
+import {
   StyleSheet,
   Text,
   View,
   ScrollView,
   ListView
-} = React;
+} from 'react-native';
 
 import RNRefreshControl from './RNRefreshControl';
 
